@@ -1,4 +1,4 @@
-package com.example.JavaSpringBoot;
+package com.example.JavaSpringBoot.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,4 +10,10 @@ public class controller {
     public String getMethod(){
         return "hello world";
     }
+
+    @GetMapping("/get1")
+    public String getMethod1(){
+        return "hello";
+    }
+
 }
