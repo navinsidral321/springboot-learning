@@ -10,4 +10,10 @@ public class controller {
     public String getMethod(){
         return "hello world";
     }
+
+    @GetMapping("/get1")
+    public String getMethod1(){
+        return "hello";
+    }
+
 }
